@@ -23,5 +23,107 @@ h1 {
     padding: 20px 0;
     font-weight: 700;
 }
+/* HEADER SECTION ENDS*/
+
+/* RIGHT PANEL STYLING */
+
+/* Class for both h2 headings */
+.h2heading {
+    font-size: 34px;
+    font-weight: 700;    
+}
+/* 5 day forecast heading */
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+/* Border to distinguish current weather from 5-day forecast */
+.current-day {
+    border: 2px solid black;;
+}
+/* icon for current weather */
+.icon-large {
+    height: 80px;
+    width: 80px;
+    visibility: hidden;
+}
+/* icons for 5-day forecast - slightly smaller */
+.icon-small {
+    height: 70px;
+    width: 70px;
+    visibility:hidden;    
+}
+/* font on cards */
+.card p, .card p span  {
+    color:white;
+    font-weight: 550;
+}
+/* Date text on cards */
+.day-date {
+    margin-top: 15px;
+    font-size: 20px;
+}
+/* UVI styling */
+#uv-index {
+    color: white;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+/* Colours for UVI background */
+.green {
+    background-color: rgb(11, 156, 11);
+}
+.orange {
+    background-color: rgb(243, 172, 41);
+}
+.red {
+    background-color: red;
+}
+/* RIGHT PANEL END */
 
 
+/* LEFT PANEL STYLING */
+
+/* Text input box */
+.location-input {
+    border: black 1px solid;
+    padding: 2px 4px;
+    width: 100%;    
+}
+/* Drop-down menu */
+.country-input {
+    border: black 1px solid;
+    padding: 2px, 4px;
+    width: 100%;
+}
+/* search button */
+.search-btn {
+    color: white;
+    background-color: rgb(106, 201, 230);
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;   
+}
+.search-btn:hover {
+    background-color: rgb(6, 182, 6);
+}
+
+/* Line at bottom of form */
+form {
+    border-bottom: black solid 3px;
+}
+/* prev search buttons */
+.city-btn {
+    background-color: rgb(146, 145, 145);
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    width: 90%;
+    margin-top: 10px;
+}
+.city-btn:hover {
+    background-color: rgb(6, 182, 6);
+    color:white;
+}
