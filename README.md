@@ -13,4 +13,4 @@ This app also uses the following technologies: HTML 5, CSS, Javascript, Jquery, 
 Here is a screenshot of the dployed app:![Screenshot weather app](https://user-images.githubusercontent.com/105419100/180665260-054aad9e-dbda-4b90-85fd-acd67d50e176.jpg)
 
 
-Here is a link to the deployed site:
+Here is a link to the deployed site: https://dalsakkaf.github.io/Mod6/
